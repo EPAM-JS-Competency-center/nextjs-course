@@ -7,3 +7,4 @@ NextJS Microlearning course resources
 
 - [NextJS Setup](./topics/nextjs-setup/)
 - [NextJS TypeScript](./topics/nextjs-typescript/)
+- [NextJS Nested & Dynamic Routes](./topics/nextjs-nested-and-dynamic-routes/)
