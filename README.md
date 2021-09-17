@@ -10,3 +10,5 @@ NextJS Microlearning course resources
 - [NextJS Nested & Dynamic Routes](./topics/nextjs-nested-and-dynamic-routes/)
 - [NextJS API Routing](./topics/nextjs-api-routing/)
 - [NextJS Linking & Navigation](./topics/nextjs-linking-and-navigation/)
+- [NextJS Styling](./topics/nextjs-styling/)
+- [NextJS Static Files Serving](./topics/nextjs-static-files-serving/)
