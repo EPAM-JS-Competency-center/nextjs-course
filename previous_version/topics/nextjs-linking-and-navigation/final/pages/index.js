@@ -17,10 +17,10 @@ const NavigationButton = React.forwardRef(({ onClick, href }, ref) => {
 export default function IndexPage() {
   return (
     <>
-      <Link href="/about">
+      <Link href="/previous_version/topics/nextjs-linking-and-navigation/final/pages/about">
         <a>About</a>
       </Link>
-      <Link href="/about" passHref>
+      <Link href="/previous_version/topics/nextjs-linking-and-navigation/final/pages/about" passHref>
         <NavigationButton />
       </Link>
     </>
