@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # CSS Styling in Next.js
 
 ## Overview of Chapter 2: Exploring Styling Options in Next.js

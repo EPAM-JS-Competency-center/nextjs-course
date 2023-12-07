@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Introduction: Getting Started
 
 ## Welcome to the First Module: Introduction to Next.js
@@ -20,4 +24,4 @@ Hello and congratulations on starting your journey with Next.js! Before you dive
 
 #### Ready to Start?
 
-When you're ready, click on the following link to begin your learning journey: [Getting Started with Next.js](https://nextjs.org/learn/dashboard-app/getting-started). Remember, this is your first step into a larger world of web development with Next.js. Enjoy the process and have fun!
+When you're ready, click on the following link to begin your learning journey: [__Getting Started with Next.js__](https://nextjs.org/learn/dashboard-app/getting-started). Remember, this is your first step into a larger world of web development with Next.js. Enjoy the process and have fun!
