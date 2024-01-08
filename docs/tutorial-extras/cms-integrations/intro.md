@@ -43,3 +43,25 @@ The advent of Next.js revolutionized the way CMS-based websites were developed. 
 ![Architecture](img/architecture.webp)
 
 Integrating a CMS with modern front-end technologies like Next.js or any of the progressive JavaScript frameworks is a prominent trend in web development. This trend is driven by the push towards the JAMstack architecture (JavaScript, APIs, and Markup), where the aim is to make websites faster, more secure, and easier to scale. It's also facilitated by the rise of headless CMSs, which allow developers to manage content separately from how it's presented, offering more flexibility. Headless CMSs combined with frameworks like Next.js offer a modern, efficient way to build web applications and this approach is indeed a growing trend in the development community.
+
+## Basic steps to start
+
+Following are the key stages involved in incorporating a CMS with Next.js:
+
+1. CMS Initialization: Choose a CMS, construct content models if necessary, and start populating it with content.
+
+2. Access Credentials: Create the necessary access tokens or API keys to link your CMS to the Next.js application.
+
+3. Required Packages: Install any packages that might be required for your chosen CMS in your Next.js project. For instance, you'd need the 'contentful' package if you are using Contentful.
+
+4. Content Retrieval: Utilize the CMS's APIs to extract content in the Next.js app. This could be during the build process for statically generated pages or during each request for server-side rendering.
+
+5. Page Creation: Build dynamic routes or pages in Next.js using the content derived from the CMS. In these pages, populate the properties of your React components using the fetched data.
+
+6. Previewing Ability (Optional): If your CMS allows for previews, you can integrate this feature into your Next.js app, enabling content managers to preview modifications before officially publishing them.
+
+7. Deployment: Utilize platforms such as Vercel or Netlify to deploy your Next.js app. Make sure to configure any environmental variables necessary for linking to the CMS.
+
+8. Content Modifications: Following these steps, any updates made to the content in the CMS will reflect on your Next.js application, either immediately or upon the next re-deployment based on your setup.
+
+Remember, the specifics of these steps may alter based on the CMS you've picked and your application's unique needs.
