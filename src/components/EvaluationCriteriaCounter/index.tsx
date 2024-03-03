@@ -54,6 +54,11 @@ const EvaluationCriteriaCounter: React.FC<EvaluationCriteriaCounterProps> = ({
     ? 'Please put a grade and click "Mark as passed" button.'
     : 'Minimum grade to successfully complete the course - 60%. Please provide review comments, set draft grade and click "Send back for updates" button in the Learn.';
 
+  const gradeClassName = clsx({
+    [styles.success]: isSuccess,
+    [styles.danger]: !isSuccess,
+  });
+
   return (
     <div>
       <table className={styles.container}>
@@ -92,14 +97,7 @@ const EvaluationCriteriaCounter: React.FC<EvaluationCriteriaCounterProps> = ({
             <tbody>
               <tr className={styles.topic}>
                 <th>Student's grade</th>
-                <td
-                  className={clsx({
-                    [styles.success]: isSuccess,
-                    [styles.danger]: !isSuccess,
-                  })}
-                >
-                  {grade}%
-                </td>
+                <td className={gradeClassName}>{grade}%</td>
               </tr>
             </tbody>
           </table>
@@ -107,14 +105,7 @@ const EvaluationCriteriaCounter: React.FC<EvaluationCriteriaCounterProps> = ({
             Reset
           </button>
         </div>
-        <p
-          className={clsx({
-            [styles.success]: isSuccess,
-            [styles.danger]: !isSuccess,
-          })}
-        >
-          {message}
-        </p>
+        <p className={gradeClassName}>{message}</p>
       </div>
     </div>
   );
