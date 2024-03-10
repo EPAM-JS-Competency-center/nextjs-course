@@ -1,0 +1,32 @@
+.container {
+  margin-bottom: 1rem;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.gradeTable {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.btn:hover {
+  background-color: #b0b0b0;
+}
+
+.success {
+  color: #4caf50;
+}
+
+.danger {
+  color: #f44336;
+}
