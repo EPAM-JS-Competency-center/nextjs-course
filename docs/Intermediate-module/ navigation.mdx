@@ -1,0 +1,63 @@
+import EvaluationCriteriaCounter from "@site/src/components/EvaluationCriteriaCounter";
+
+# Navigation with Next.js
+
+**Objective**: Add functional navigation to the five static pages developed previously for an e-commerce platform, using the Vue Storefront Demo site ([Vue Storefront Demo](https://demo.vuestorefront.io/)) as design inspiration.
+
+**Task Details**:
+
+- **Home Page**:
+  - Implement clickable products that navigate to their Detailed Product Page.
+
+- **Categories Page**:
+  - Ensure each product category and example item includes a functional link to the Detailed Product Page.
+
+- **Detailed Product Page**:
+  - Add a button/link to add the product to the cart, directing the user to the Cart Page.
+
+- **Cart Page**:
+  - Include functionality to modify item quantities.
+  - Implement a "Back to Shopping" link returning to the Home or Categories Page.
+  - Add a "Proceed to Checkout" button navigating to the Checkout Page.
+
+- **Checkout Page**:
+  - Design a form for shipping and contact information.
+  - Provide a summary of the order with a total cost.
+  - Insert a "Place Order and Pay" button to simulate the purchase completion.
+
+**Special Considerations**:
+
+- Implement a unique layout for the Cart and Checkout pages that streamlines the purchasing process and minimizes distractions.
+
+**Acceptance Criteria**:
+
+- All products on the Home and Categories pages must navigate to the correct Detailed Product Page when clicked.
+- The Cart icon in the header should always navigate to the Cart Page, reflecting the current state of the user's cart.
+- The Checkout Page must present a focused layout for users to complete their purchases without external distractions.
+- Header links should be consistent and functional across the site, except for the Cart and Checkout pages.
+
+**Evaluation Criteria**:
+
+- The setup of effective routing and functional links between pages (20%).
+- The use of mock data that is organized and appropriate for an e-commerce setting (20%).
+- The implementation of shared and unique layouts, with special attention to the distinct experience required on the Cart and Checkout pages (20%).
+- The presence of functional navigation that allows users to intuitively move throughout the site (15%).
+- The use of Storefront UI components where applicable, with custom development as necessary (5%).
+
+<EvaluationCriteriaCounter
+  criteriaWithCoefficients={[
+    { criterion: "Effective routing and setup", coefficient: 20 },
+    { criterion: "Appropriateness of mock data", coefficient: 20 },
+    {
+      criterion: "Successful implementation of layouts, with special attention to the Cart and Checkout pages",
+      coefficient: 20,
+    },
+    { criterion: "Functional navigation", coefficient: 15 },
+    {
+      criterion: "Judicious use of Storefront UI components, understanding some may need custom development",
+      coefficient: 5,
+    },
+  ]}
+/>
+
+Upon completion, submit a pull request for your mentor's review, ensuring that you've prioritized functionality and structure. For further guidance on Next.js routing and layouts, consult the [Next.js documentation](https://nextjs.org/learn/dashboard-app/creating-layouts-and-pages).
