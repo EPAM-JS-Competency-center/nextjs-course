@@ -1,1 +1,0 @@
-# Category, Sort, and Filter
