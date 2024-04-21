@@ -2,7 +2,7 @@ import EvaluationCriteriaCounter from "@site/src/components/EvaluationCriteriaCo
 
 # Checkout page
 
-**Objective**: Use react-hook-form to create a checkout page with order submission functionality. Validate requests through NextJS API and send a "success" response.
+**Objective**: Use [react-hook-form](https://react-hook-form.com/) to create a checkout page with order submission functionality. Validate requests through NextJS API and send a "success" response.
 
 **Task Details**:
 
@@ -24,6 +24,13 @@ Create a checkout API with the URL to '/api/checkout'.
 - **Validate checkout**:
 
 Add backend validation, return errors and handle it on the frontend side.
+
+**Special Considerations**:
+
+- Create endpoint for the checkout with NextJS. Check [route-handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers) documentation to implement it.
+
+**Why it's Important**:
+Next.js API serve as a crucial Backend For Frontend (BFF) layer, enabling server-side operations like database interactions and authentication within the same application, thereby reducing architectural complexity.
 
 **Acceptance Criteria**:
 
